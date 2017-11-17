@@ -4,7 +4,7 @@ package hfProject.controller;
  * Created by hf on 16/9/2.
  */
 
-import hfProject.configSetting.Hfcon1Setting;
+import hfProject.configSetting.hfcon1Setting;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,7 +18,7 @@ public class Example {
     private static final Logger logger = LoggerFactory.getLogger(Example.class);
 
     @Autowired
-    Hfcon1Setting t ;
+    hfcon1Setting t ;
 
     @RequestMapping("/hf-boot")
     String home() {

@@ -7,7 +7,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  */
 
 @ConfigurationProperties(prefix = "hf1",locations = "classpath:config/hfcon1.properties")
-public class Hfcon1Setting {
+public class hfcon1Setting {
 
     private String name;
     private String age;

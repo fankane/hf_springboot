@@ -1,6 +1,6 @@
 package hfProject;
 
-import hfProject.configSetting.Hfcon1Setting;
+import hfProject.configSetting.hfcon1Setting;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @EnableAutoConfiguration
 @ComponentScan
-@EnableConfigurationProperties({Hfcon1Setting.class})
+@EnableConfigurationProperties({hfcon1Setting.class})
 public class Application {
     public static void main(String[] args) throws Exception {
         SpringApplication.run(Application.class, args);
