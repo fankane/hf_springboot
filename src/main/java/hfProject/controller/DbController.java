@@ -33,6 +33,7 @@ public class DbController {
         List<Student> students = studentService.getStudentList();
         Gson gson = new Gson();
         String result = gson.toJson(students);
+        logger.info("result for test:"+result);
         return result;
     }
 
